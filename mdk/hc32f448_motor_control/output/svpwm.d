@@ -1,0 +1,10 @@
+.\output\svpwm.o: ..\..\source\motor_midwares\svpwm.c
+.\output\svpwm.o: ..\..\source\motor_midwares/svpwm.h
+.\output\svpwm.o: ..\..\source\motor_midwares/base_types.h
+.\output\svpwm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\svpwm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\svpwm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\svpwm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\svpwm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\svpwm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\output\svpwm.o: ..\..\device\hc32f448\mcu_driver\inc\hc32_ll_def.h

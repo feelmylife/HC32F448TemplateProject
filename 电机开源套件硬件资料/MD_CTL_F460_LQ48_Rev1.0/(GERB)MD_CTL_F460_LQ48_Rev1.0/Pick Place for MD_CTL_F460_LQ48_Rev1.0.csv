@@ -1,0 +1,46 @@
+Altium Designer Pick and Place Locations
+D:\HW\lk\新电机低压套件\MD_CTL_F460_LQ48_Rev1.0\Project Outputs for MK-HC32F460-LQFP100\Pick Place for MD_CTL_F460_LQ48_Rev1.0.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       18/08/22
+Time:       10:10
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+"Designator","Comment","Layer","Footprint","Center-X(mil)","Center-Y(mil)","Rotation","Description"
+"logo","XHSC","BottomLayer","XHSC_LOGO_SMALL","-2575.000mil","-2360.000mil","180",""
+"VR","3386P-1-103TLF","TopLayer","3386P-1-103TLF","1595.000mil","145.000mil","0",""
+"CN4","2.54mm,5Pin","TopLayer","PIN-6-254-S","1440.630mil","1100.394mil","180",""
+"R4","100R","TopLayer","R0603","1052.116mil","275.000mil","90","Resister,0603,5%"
+"U2","ME6214C33M5G","TopLayer","SPX3819","675.155mil","336.242mil","90","DC-DC"
+"Y1","8MHz","TopLayer","49s","1511.445mil","659.301mil","270","4.0000MHz"
+"U1","HC32F460_LQFP48","TopLayer","LQFP-48-070-050","1080.000mil","625.000mil","180",""
+"R43","10k","TopLayer","R0603","1285.709mil","895.000mil","270","Resister,0603,5%"
+"R42","2k","TopLayer","R0603","1372.884mil","230.000mil","270","Resister,0603,5%"
+"R9","1k","TopLayer","R0603","849.884mil","960.000mil","90","Resister,0603,5%"
+"R6","10k","TopLayer","R0603","1150.000mil","307.842mil","180","Resister,0603,5%"
+"R5","100R","TopLayer","R0603","906.796mil","275.000mil","90","Resister,0603,5%"
+"R3","10k","TopLayer","R0603","978.680mil","275.000mil","90","Resister,0603,5%"
+"R2","10k","TopLayer","R0603","834.912mil","275.000mil","90","Resister,0603,5%"
+"R1","1k","TopLayer","R0603","640.000mil","655.000mil","0","Resister,0603,5%"
+"LED2","LED","TopLayer","LED0603","775.000mil","960.000mil","90","0603,SMT"
+"LED1","LED","TopLayer","LED0603","532.246mil","630.000mil","90","0603,SMT"
+"CN5","2.54mm,5Pin","TopLayer","PIN-5-254-S","1085.709mil","88.425mil","360",""
+"CN3","CN-2-20-254","TopLayer","PINA-20-254-S","1918.110mil","602.362mil","270",""
+"CN2","Micro USB-B ,180度","TopLayer","Micro-USB-B-1","600.000mil","110.600mil","360","Micro USB-B type, TE"
+"CN1","CN-2-20-254","TopLayer","PINA-20-254-S","247.244mil","602.362mil","270",""
+"C21","0.1uF","TopLayer","C0603","1357.858mil","895.000mil","90",""
+"C20","1nF","TopLayer","C0603","1372.884mil","358.594mil","90","Ceramic Capacitor,0603"
+"C14","0.1uF","TopLayer","C0603","1355.000mil","761.697mil","270",""
+"C13","0.1uF","TopLayer","C0603","825.000mil","520.000mil","90",""
+"C11","0.1uF","TopLayer","C0603","925.000mil","960.000mil","90",""
+"C10","4.7uF","TopLayer","C0805","746.759mil","526.339mil","90",""
+"C6","12pF","TopLayer","C0603","1646.923mil","585.000mil","90",""
+"C5","12pF","TopLayer","C0603","1646.658mil","730.000mil","270",""
+"C4","10uF","TopLayer","c1206","535.000mil","329.523mil","270",""
+"C3","0.1uF","TopLayer","C0603","1000.000mil","960.000mil","90","Ceramic Capacitor,0603"
+"C2","10uF","TopLayer","c1206","591.130mil","494.232mil","360",""
+"C1","0.1uF","TopLayer","C0603","638.102mil","583.116mil","180","Ceramic Capacitor,0603"

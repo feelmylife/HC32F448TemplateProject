@@ -1,0 +1,10 @@
+.\output\module_math.o: ..\..\source\motor_midwares\module_math.c
+.\output\module_math.o: ..\..\source\motor_midwares/module_math.h
+.\output\module_math.o: ..\..\source\motor_midwares/base_types.h
+.\output\module_math.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\module_math.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\module_math.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\module_math.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\module_math.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\module_math.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\output\module_math.o: ..\..\device\hc32f448\mcu_driver\inc\hc32_ll_def.h

@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [MK-HC32F460-LQFP100.PrjPcb]
+   Generated File[Pick Place for MD_CTL_F460_LQ48_Rev1.0.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 10:10:37 On 2022/8/18

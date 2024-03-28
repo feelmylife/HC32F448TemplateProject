@@ -1,0 +1,1631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>2167562875</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\device\mcu_common\mcu_include.h</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_config\hardware_config.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_config\isr.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_config\init_mcu.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_wdt.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\system_hc32f448.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_cmp.c</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\coordinate_transform.c</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\filter.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_dma.c</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\protection.c</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\speed_set.c</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\flux_observer.c</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\startup_control.c</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\stop_control.c</file>
+            <file>$PROJ_DIR$\..\..\source\motor_source\cmd_set_analog_io.c</file>
+            <file>$PROJ_DIR$\..\..\source\motor_source\main.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_tmr4.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_fcm.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_aos.c</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\svpwm.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_efm.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_fcg.c</file>
+            <file>$PROJ_DIR$\..\..\source\motor_source\motor_control.c</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\adc_sample.c</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\module_math.c</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\pid.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_icg.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_adc.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_utility.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_emb.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_clk.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_pwc.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_sram.c</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\flux_observer.h</file>
+            <file>$PROJ_DIR$\Debug\List\hc32f46x_motor_control.map</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\inc\hc32_ll_fcm.h</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\startup_control.h</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\module_math.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\..\..\source\motor_source\motor_control.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\..\..\source\motor_source\user_interface.h</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\speed_set.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\inc\hc32_ll_wdt.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+            <file>$PROJ_DIR$\config\linker\HC32F448xC.icf</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\pid.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Lib\IAR\iar_cortexM4l_math.a</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\hc32f46x_motor_control.out</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\mpu_armv7.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\hc32f448.h</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\svpwm.h</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_config\hardware_mapping.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\hc32f46x_motor_control.hex</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\coordinate_transform.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32f448_motor_control.pbd</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\core_cm4.h</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\filter.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\adc_sample.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_compiler.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_tmr4.o</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\module_include.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\protection.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\inc\hc32_ll_def.h</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\base_types.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\..\source\motor_midwares\stop_control.h</file>
+            <file>$PROJ_DIR$\..\..\source\motor_source\cmd_set_analog_io.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc_sample.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_hc32f448.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_control.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_wdt.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_adc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_cmp.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_aos.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\svpwm.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_fcg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\motor_control.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_tmr4.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_sram.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_efm.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\user_interface.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_gpio.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_hc32f460.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_dma.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\pid.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\speed_set.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stop_control.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_icg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\module_math.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\protection.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_fcm.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_pwc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\cmd_set_analog_io.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_emb.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_utility.pbi</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\system_hc32f448.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\filter.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\coordinate_transform.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_fcm.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\user_interface.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_clk.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_emb.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_control.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\isr.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_fcg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_wdt.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_sram.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc_sample.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\module_math.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hardware_config.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\pid.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\flux_observer.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\speed_set.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_pwc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\init_mcu.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\filter.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\flux_observer.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\motor_control.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stop_control.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_icg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\protection.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cmd_set_analog_io.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\svpwm.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_hc32f460.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\coordinate_transform.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_utility.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_hc32f460.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_dma.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_efm.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_icg.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_dma.o</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f460\mcu_config\isr.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_clk.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_cmp.c</file>
+            <file>$PROJ_DIR$\startup\startup_hc32f460.s</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_emb.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_efm.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_utility.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_pwc.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_fcm.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_wdt.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_sram.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_tmr4.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\system_hc32f460.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_fcg.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_dma.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\source\readme.txt</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_efm.o</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f460\mcu_config\hardware_config.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_aos.c</file>
+            <file>$PROJ_DIR$\..\..\source\motor_source\user_interface.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f460\mcu_config\init_mcu.c</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_adc.c</file>
+            <file>$PROJ_DIR$\startup\startup_hc32f448.s</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\inc\hc32_ll_emb.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_adc.o</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\inc\hc32_ll_fcg.h</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_config\hardware_definitions.h</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\hc32f4xx_conf.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_aos.o</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\inc\hc32_ll_dma.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_cmp.o</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\inc\hc32_ll_clk.h</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\inc\hc32_ll_tmr4.h</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_config\init_mcu.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_hc32f448.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hardware_config.o</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\inc\hc32_ll_aos.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\init_mcu.o</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\inc\hc32_ll_adc.h</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\inc\hc32_ll_pwc.h</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\inc\hc32_ll.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_clk.o</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\inc\hc32_ll_sram.h</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\inc\hc32_ll_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\inc\hc32_ll_efm.h</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\inc\hc32_ll_icg.h</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\inc\hc32_ll_utility.h</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\inc\hc32_ll_cmp.h</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_config\isr.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\isr.o</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_config\hardware_config.h</file>
+            <file>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\hc32f4xx.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_hc32f448.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_utility.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_icg.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\flux_observer.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc_sample.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\pid.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\svpwm.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\cmd_set_analog_io.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\motor_control.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\user_interface.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_tmr4.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\module_math.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\coordinate_transform.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_fcg.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_wdt.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_pwc.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_sram.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\protection.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_fcm.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_emb.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_hc32f448.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\filter.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\speed_set.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_control.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stop_control.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_adc.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_cmp.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_aos.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll_clk.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hardware_config.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\init_mcu.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\isr.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\hc32_ll.__cstat.et</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 59 39</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f448\mcu_config\hardware_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 194</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 134</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 242</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 209 184 0 62 70 81 84 72 58 44 86 61 75 76 67 60 82 50 74 199 210 118 185 197 195 189 206 187 203 181 183 202 204 198 201 190 205 47 51 64 207 46 78 83 79 45 43 37 69 66 42 71 38 63 55 73 41 87 49 80 48 88 191</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84 207 72 183 66 199 50 203 51 82 210 87 69 83 48 0 184 62 209 81 185 204 47 46 88 63 79 45 78 64 191 70 61 60 197 189 198 190 118 74 73 80 71 37 75 58 44 86 76 67 195 206 187 181 202 201 205 41 49 42 38 55 43</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f448\mcu_config\isr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 208</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 244</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0 62 70 81 84 72 58 44 86 61 75 76 67 60 82 50 74 199 210 118 185 197 195 189 206 187 203 181 183 202 204 198 201 190 205 47 51 184 209 83 79 45 43 37 69 64 207 46 78 66 42 71 38 63 55 73 41 87 49 80 48 88 191</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82 210 81 185 47 209 73 62 204 84 83 48 0 199 207 50 203 183 51 184 43 74 80 71 78 64 191 70 61 60 72 197 189 198 190 118 46 87 88 66 63 75 58 44 86 76 67 195 206 187 181 202 201 205 79 69 45 37 41 49 42 38 55</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 193</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 245</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 199 82 50 84 72 58 44 86 74 81 210 62 70 61 75 76 67 60 118 185 197 195 189 206 187 203 181 183 202 204 198 201 190 205 47 51</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 202 185 187 205 72 82 74 206 86 62 76 210 195 181 201 81 84 58 44 67 197 189 203 183 204 198 190 51 50 118 70 61 60 199 75 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f448\mcu_config\init_mcu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 196</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 139</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 243</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0 62 70 81 84 72 58 44 86 61 75 76 67 60 82 50 74 199 210 118 185 197 195 189 206 187 203 181 183 202 204 198 201 190 205 47 51 184 209 83 79 45 43 37 69 64 207 46 78 66 42 71 38 63 55 73 41 87 49 80 48 88 191</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82 210 70 185 47 184 73 191 204 84 83 48 0 64 50 203 183 51 43 74 80 71 78 62 199 209 207 81 61 60 72 197 189 198 190 118 46 87 88 66 63 75 58 44 86 76 67 195 206 187 181 202 201 205 79 69 45 37 41 49 42 38 55</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_wdt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 130</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 92</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 226</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51 82 50 84 72 58 44 86 74 81 210 62 70 61 75 76 67 60 118 185 205 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50 84 118 60 81 82 70 61 185 72 210 74 205 58 44 86 62 76 67 51 75 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\system_hc32f448.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 211</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 192</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 233</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118 82 50 84 72 58 44 86 74 81 210 62 70 61 75 76 67 60 185</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81 58 44 84 72 75 210 74 86 118 70 82 185 50 62 61 60 76 67</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_cmp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 188</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 239</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 206 82 50 84 72 58 44 86 74 81 210 62 70 61 75 76 67 60 118 185 205 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86 62 210 74 72 67 81 84 58 44 76 185 205 82 50 118 70 61 60 206 75 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\source\motor_midwares\coordinate_transform.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 149</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 120</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 223</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 83 47 84 72 58 44 86 74 79 45 50 81 43 37 69 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43 58 47 74 84 83 50 82 72 79 81 69 66 44 86 45 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\source\motor_midwares\filter.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 140</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 119</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 234</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71 83 47 84 72 58 44 86 74 79 45 50 81 43 37 69 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43 58 47 74 84 83 50 82 72 79 81 69 71 44 86 45 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 155</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 152</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 187 82 50 84 72 58 44 86 74 81 210 62 70 61 75 76 67 60 118 185 205 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50 210 84 118 70 67 72 76 185 74 205 82 81 58 44 86 62 61 60 187 75 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\source\motor_midwares\protection.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 145</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 229</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46 0 62 70 81 84 72 58 44 86 61 75 76 67 60 82 50 74 199 210 118 185 197 195 189 206 187 203 181 183 202 204 198 201 190 205 47 51 184 209 83 79 45 43 37 69 64 207 191 78 66 42 71 38 63 55 73 41 87 49 80 48 88</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67 74 78 87 62 210 181 0 88 209 81 195 201 82 185 55 73 80 199 207 86 76 72 37 42 83 41 49 48 184 64 191 70 75 84 58 44 206 187 202 205 79 69 45 38 46 61 60 50 197 189 203 183 204 198 190 51 118 47 43 66 71 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\source\motor_midwares\speed_set.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 137</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 235</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46 0 62 70 81 84 72 58 44 86 61 75 76 67 60 82 50 74 199 210 118 185 197 195 189 206 187 203 181 183 202 204 198 201 190 205 47 51 184 209 83 79 45 43 37 69 64 207 191 78 66 42 71 38 63 55 73 41 87 49 80 48 88</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67 74 78 49 82 210 181 64 195 201 185 55 0 41 48 184 191 70 86 76 81 72 37 42 83 73 87 80 88 62 199 209 207 75 84 58 44 206 187 202 205 79 69 45 38 46 61 60 50 197 189 203 183 204 198 190 51 118 47 43 66 71 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\source\motor_midwares\flux_observer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 136</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 214</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 78 83 47 84 72 58 44 86 74 79 45 50 81 43 37 69 82 66 42 71 63 55</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84 81 86 72 71 74 78 66 63 79 69 58 44 83 42 38 55 47 50 43 82 45 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\source\motor_midwares\startup_control.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 236</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46 0 62 70 81 84 72 58 44 86 61 75 76 67 60 82 50 74 199 210 118 185 197 195 189 206 187 203 181 183 202 204 198 201 190 205 47 51 184 209 83 79 45 43 37 69 64 207 191 78 66 42 71 38 63 55 73 41 87 49 80 48 88</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78 67 74 64 210 181 49 82 195 201 185 55 0 41 48 184 191 70 86 76 81 72 37 42 83 73 87 80 88 62 199 209 207 75 84 58 44 206 187 202 205 79 69 45 38 46 61 60 50 197 189 203 183 204 198 190 51 118 47 43 66 71 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\source\motor_midwares\stop_control.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 143</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 108</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 237</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46 0 62 70 81 84 72 58 44 86 61 75 76 67 60 82 50 74 199 210 118 185 197 195 189 206 187 203 181 183 202 204 198 201 190 205 47 51 184 209 83 79 45 43 37 69 64 207 191 78 66 42 71 38 63 55 73 41 87 49 80 48 88</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48 184 67 74 78 70 210 181 41 191 195 201 82 185 55 0 49 64 86 76 81 72 37 42 83 73 87 80 88 62 199 209 207 75 84 58 44 206 187 202 205 79 69 45 38 46 61 60 50 197 189 203 183 204 198 190 51 118 47 43 66 71 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\source\motor_source\cmd_set_analog_io.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 146</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 115</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 218</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88 78 83 47 84 72 58 44 86 74 79 45 50 81 43 37 69 82 66 42 71 38 63 55 48</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 55 50 45 84 83 42 82 72 37 81 78 38 47 43 74 48 66 71 63 79 69 58 44 86 88</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\source\motor_source\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 230</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46 0 62 70 81 84 72 58 44 86 61 75 76 67 60 82 50 74 199 210 118 185 197 195 189 206 187 203 181 183 202 204 198 201 190 205 47 51 184 209 83 79 45 43 37 69 64 207 191 78 66 42 71 38 63 55 73 41 87 49 80 48 88</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 41 67 74 78 191 210 181 48 184 70 195 201 82 185 55 0 49 64 86 76 81 72 37 42 83 73 87 80 88 62 199 209 207 75 84 58 44 206 187 202 205 79 69 45 38 46 61 60 50 197 189 203 183 204 198 190 51 118 47 43 66 71 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_tmr4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 221</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 190 82 50 84 72 58 44 86 74 81 210 62 70 61 75 76 67 60 118 185 205 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82 81 84 72 58 44 67 185 74 86 62 76 205 210 50 118 70 61 60 190 75 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_fcm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 231</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40 82 50 84 72 58 44 86 74 81 210 62 70 61 75 76 67 60 118 185 205 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 58 81 44 60 84 72 61 210 74 86 62 185 205 82 50 118 70 76 67 40 75 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_aos.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 186</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 95</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 240</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 195 82 50 84 72 58 44 86 74 81 210 62 70 61 75 76 67 60 118 185 205 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70 60 81 50 84 118 61 82 210 72 74 205 185 58 44 86 62 76 67 47 195 75</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\source\motor_midwares\svpwm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 147</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 217</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63 83 47 84 72 58 44 86 74 79 45 50 81 43 37 69 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74 50 83 69 84 72 79 58 44 81 86 63 47 43 82 45 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_efm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 173</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 153</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 203 82 50 84 72 58 44 86 74 81 210 62 70 61 75 76 67 60 118 185 205 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 185 72 84 67 82 50 118 70 76 74 205 210 81 58 44 86 62 61 60 203 75 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_fcg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 225</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 183 82 50 84 72 58 44 86 74 81 210 62 70 61 75 76 67 60 118 185 205 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86 62 60 81 82 74 72 61 185 84 58 44 210 205 50 118 70 76 67 183 75 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\source\motor_source\motor_control.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 142</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 219</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46 0 62 70 81 84 72 58 44 86 61 75 76 67 60 82 50 74 199 210 118 185 197 195 189 206 187 203 181 183 202 204 198 201 190 205 47 51 184 209 83 79 45 43 37 69 64 207 191 78 66 42 71 38 63 55 73 41 87 49 80 48 88</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 41 67 74 78 210 181 48 82 195 201 185 55 0 49 184 191 70 86 76 81 72 37 42 83 73 87 80 88 62 199 209 207 75 84 58 44 206 187 202 205 79 69 45 38 46 61 60 50 197 189 203 183 204 198 190 51 118 47 43 66 71 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\source\motor_midwares\adc_sample.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 132</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 89</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 215</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46 0 62 70 81 84 72 58 44 86 61 75 76 67 60 82 50 74 199 210 118 185 197 195 189 206 187 203 181 183 202 204 198 201 190 205 47 51 184 209 83 79 45 43 37 69 64 207 191 78 66 42 71 38 63 55 73 41 87 49 80 48 88</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 67 74 78 210 181 49 82 195 201 185 55 0 41 48 184 191 70 86 76 81 72 37 42 83 73 87 80 88 62 199 209 207 75 84 58 44 206 187 202 205 79 69 45 38 46 61 60 50 197 189 203 183 204 198 190 51 118 47 43 66 71 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\source\motor_midwares\module_math.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 133</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 222</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42 83 47 84 72 58 44 86 74 79 45 50 81 43 37 69 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74 50 69 84 72 79 58 44 83 81 86 42 47 43 82 45 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\source\motor_midwares\pid.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 135</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 216</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 83 47 84 72 58 44 86 74 79 45 50 81 43 37 69 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74 50 69 84 72 79 58 44 81 86 55 83 47 43 82 45 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_icg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 144</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 213</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 204 82 50 84 72 58 44 86 74 81 210 62 70 61 75 76 67 60 118 185</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86 62 82 74 72 185 81 84 58 44 210 50 118 70 75 204 61 60 76 67</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 182</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 238</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 197 82 50 84 72 58 44 86 74 81 210 62 70 61 75 76 67 60 118 185 205 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74 72 86 62 67 210 81 84 58 44 76 185 205 82 50 118 70 61 60 197 75 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_utility.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 212</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 205 82 50 84 72 58 44 86 74 81 210 62 70 61 75 76 67 60 118 185 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81 60 86 62 47 74 72 61 210 84 58 44 82 185 50 118 70 76 67 205 75</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_emb.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 116</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 232</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 181 82 50 84 72 58 44 86 74 81 210 62 70 61 75 76 67 60 118 185 205 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84 72 60 81 61 82 210 50 118 70 74 205 185 58 44 86 62 76 67 47 181 75</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_clk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 200</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 241</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 189 82 50 84 72 58 44 86 74 81 210 62 70 61 75 76 67 60 118 185 205 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72 84 82 67 185 50 118 70 76 74 205 210 81 58 44 86 62 61 60 189 75 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 224</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 202 82 50 84 72 58 44 86 74 81 210 62 70 61 75 76 67 60 118 185 205 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 118 210 84 50 70 67 72 76 185 74 205 82 81 58 44 86 62 61 60 202 75 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_pwc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 138</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 227</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 198 82 50 84 72 58 44 86 74 81 210 62 70 61 75 76 67 60 118 185 205 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 185 50 84 118 70 67 82 72 76 74 205 210 81 58 44 86 62 61 60 198 75 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f448\mcu_driver\src\hc32_ll_sram.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 131</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 228</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 201 82 50 84 72 58 44 86 74 81 210 62 70 61 75 76 67 60 118 185 205 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72 84 60 81 210 61 50 118 70 185 74 205 82 58 44 86 62 76 67 201 75 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\hc32f46x_motor_control.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 54 132 146 149 140 141 194 193 182 186 200 188 155 173 125 129 121 127 144 138 131 77 150 130 196 208 123 133 142 135 145 137 126 90 143 147 211 122 56 52 57 36 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_icg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 144</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_config\isr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 208</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_clk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 200</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 124</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_cmp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 188</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 94</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup\startup_hc32f460.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 148</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_emb.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 116</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_efm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 173</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_utility.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 117</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_pwc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 138</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 114</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_fcm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 113</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_wdt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 130</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 92</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_sram.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 131</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 100</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_tmr4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 99</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\system_hc32f460.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 151</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 104</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_fcg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 155</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_config\hardware_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 194</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 134</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 193</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_aos.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 186</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\source\motor_source\user_interface.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 220</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48 78 83 47 84 72 58 44 86 74 79 45 50 81 43 37 69 82 66 42 71 38 63 55</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 55 50 45 84 83 78 42 82 72 37 81 38 47 43 74 66 71 63 79 69 58 44 86 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_config\init_mcu.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 139</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 182</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup\startup_hc32f448.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 90</file>
+                </tool>
+            </outputs>
+        </file>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_icg.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_config\isr.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_clk.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_cmp.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_emb.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_efm.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_utility.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_pwc.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_fcm.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_wdt.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_sram.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_tmr4.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_fcg.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_dma.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_gpio.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_config\hardware_config.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_aos.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_config\init_mcu.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\device\hc32f460\mcu_driver\src\hc32_ll_adc.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

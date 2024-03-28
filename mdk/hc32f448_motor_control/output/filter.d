@@ -1,0 +1,10 @@
+.\output\filter.o: ..\..\source\motor_midwares\filter.c
+.\output\filter.o: ..\..\source\motor_midwares/filter.h
+.\output\filter.o: ..\..\source\motor_midwares/base_types.h
+.\output\filter.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\filter.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\filter.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\filter.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\filter.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\filter.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\output\filter.o: ..\..\device\hc32f448\mcu_driver\inc\hc32_ll_def.h

@@ -1,0 +1,6 @@
+DRC Rules Export File for PCB: D:\HW\lk\新电机低压套件\MD_CTL_F460_LQ48_Rev1.0\MD_CTL_F460_LQ48_Rev1.0.PcbDoc
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=8.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.99
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=7.99

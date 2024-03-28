@@ -1,0 +1,17 @@
+.\output\flux_observer.o: ..\..\source\motor_midwares\flux_observer.c
+.\output\flux_observer.o: ..\..\source\motor_midwares/flux_observer.h
+.\output\flux_observer.o: ..\..\source\motor_midwares/module_include.h
+.\output\flux_observer.o: ..\..\source\motor_midwares/base_types.h
+.\output\flux_observer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\flux_observer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\flux_observer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\flux_observer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\flux_observer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\flux_observer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\output\flux_observer.o: ..\..\device\hc32f448\mcu_driver\inc\hc32_ll_def.h
+.\output\flux_observer.o: ..\..\source\motor_midwares/coordinate_transform.h
+.\output\flux_observer.o: ..\..\source\motor_midwares/module_math.h
+.\output\flux_observer.o: ..\..\source\motor_midwares/filter.h
+.\output\flux_observer.o: ..\..\source\motor_midwares/flux_observer.h
+.\output\flux_observer.o: ..\..\source\motor_midwares/svpwm.h
+.\output\flux_observer.o: ..\..\source\motor_midwares/pid.h

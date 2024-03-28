@@ -1,0 +1,10 @@
+.\output\coordinate_transform.o: ..\..\source\motor_midwares\coordinate_transform.c
+.\output\coordinate_transform.o: ..\..\source\motor_midwares/coordinate_transform.h
+.\output\coordinate_transform.o: ..\..\source\motor_midwares/base_types.h
+.\output\coordinate_transform.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\coordinate_transform.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\coordinate_transform.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\coordinate_transform.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\coordinate_transform.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\coordinate_transform.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\output\coordinate_transform.o: ..\..\device\hc32f448\mcu_driver\inc\hc32_ll_def.h
